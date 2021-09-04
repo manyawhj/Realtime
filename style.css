@@ -1,0 +1,90 @@
+.heading {
+    font-size: 38px;
+    width: 100%;
+    margin: 0px;
+    background-color: grey;
+    color: white;
+    box-shadow: 5px 5px 5px lightslategray;
+}
+
+.heading_div {
+    float: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px lightslategray;
+}
+
+.headig_div2{
+    font-size: 18px;
+}
+
+.heading:hover{
+    background-color: black;
+}
+
+.headig_div2:hover{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(255, 166, 0);
+}
+
+body{
+    background-image: url("b.gif") ;
+    background-size: cover;
+    background-position: center;
+}
+
+canvas{
+    box-shadow: 5px 5px 5px lightslategray;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    margin-top: 130px;
+    animation: Ani 4s infinite;
+    
+}
+
+@keyframes Ani{
+    from{border-color: red; border-width: 8px; border-style:ridge; border-radius: 0px;}
+    to{border-color: orange; border-width: 4px; border-style: solid; border-radius: 30px;}
+    
+}
+
+.result_para_tag{
+    font-size: 20px;
+    box-shadow: 5px 5px 5px lightslategray;
+}
+
+.copy_right_footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: grey;
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+    box-shadow: lightslategray;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.copy_right_footer:hover{
+    background-color: black;
+}
+
+.result_para_tag:hover{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(255, 166, 0);
+}
+
+#m{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px lightslategray;
+}
